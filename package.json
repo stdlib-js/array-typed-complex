@@ -1,0 +1,45 @@
+{
+  "name": "@stdlib/array-typed-complex",
+  "version": "0.0.0",
+  "description": "Create a complex number typed array.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/array-typed-complex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "data",
+    "structure",
+    "typed",
+    "array",
+    "typed array",
+    "typed-array",
+    "vector",
+    "ndarray",
+    "matrix",
+    "complex64array",
+    "complex128array",
+    "double",
+    "precision",
+    "double-precision",
+    "single",
+    "float",
+    "single-precision",
+    "float32",
+    "ieee754",
+    "complex",
+    "cmplx"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
