@@ -20,7 +20,7 @@
 
 // tslint:disable:unified-signatures
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
 import { ArrayLike, ComplexTypedArray, ComplexDataType as DataType } from '@stdlib/types/array';
 import ArrayBuffer = require( '@stdlib/array-buffer' );
