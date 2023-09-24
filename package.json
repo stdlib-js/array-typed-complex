@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-typed-complex",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Create a complex number typed array.",
   "license": "Apache-2.0",
   "author": {
@@ -38,24 +38,24 @@
   },
   "dependencies": {
     "@stdlib/array-typed-complex-ctors": "^0.0.6",
-    "@stdlib/assert-is-string": "^0.0.8",
-    "@stdlib/string-format": "^0.0.3",
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/assert-is-string": "^0.1.0",
+    "@stdlib/string-format": "^0.1.0",
+    "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-buffer": "^0.0.6",
-    "@stdlib/array-complex128": "^0.0.6",
-    "@stdlib/array-complex64": "^0.0.6",
-    "@stdlib/array-float64": "^0.0.6",
-    "@stdlib/assert-instance-of": "^0.0.8",
-    "@stdlib/assert-is-complex-typed-array": "^0.0.6",
-    "@stdlib/bench": "^0.0.12",
+    "@stdlib/array-buffer": "^0.1.0",
+    "@stdlib/array-complex128": "^0.1.0",
+    "@stdlib/array-complex64": "^0.1.0",
+    "@stdlib/array-float64": "^0.1.0",
+    "@stdlib/assert-instance-of": "^0.1.0",
+    "@stdlib/assert-is-complex-typed-array": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
     "@stdlib/blas-ext-base-gfill-by": "^0.0.10",
-    "@stdlib/complex-float64": "^0.0.8",
-    "@stdlib/math-base-special-pow": "^0.0.7",
+    "@stdlib/complex-float64": "^0.1.0",
+    "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/random-base-discrete-uniform": "^0.0.6",
-    "@stdlib/strided-base-reinterpret-complex128": "^0.0.2",
-    "@stdlib/strided-base-reinterpret-complex64": "^0.0.2",
+    "@stdlib/strided-base-reinterpret-complex128": "^0.1.0",
+    "@stdlib/strided-base-reinterpret-complex64": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
