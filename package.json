@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-typed-complex-ctors": "^0.0.6",
+    "@stdlib/array-typed-complex-ctors": "^0.1.0",
     "@stdlib/assert-is-string": "^0.1.0",
     "@stdlib/string-format": "^0.1.0",
     "@stdlib/types": "^0.1.0"
@@ -50,10 +50,10 @@
     "@stdlib/assert-instance-of": "^0.1.0",
     "@stdlib/assert-is-complex-typed-array": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/blas-ext-base-gfill-by": "^0.0.10",
+    "@stdlib/blas-ext-base-gfill-by": "^0.1.0",
     "@stdlib/complex-float64": "^0.1.0",
     "@stdlib/math-base-special-pow": "^0.1.0",
-    "@stdlib/random-base-discrete-uniform": "^0.0.6",
+    "@stdlib/random-base-discrete-uniform": "^0.1.0",
     "@stdlib/strided-base-reinterpret-complex128": "^0.1.0",
     "@stdlib/strided-base-reinterpret-complex64": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
