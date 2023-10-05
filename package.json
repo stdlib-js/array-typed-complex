@@ -38,8 +38,8 @@
   },
   "dependencies": {
     "@stdlib/array-typed-complex-ctors": "^0.1.0",
-    "@stdlib/assert-is-string": "^0.1.0",
-    "@stdlib/string-format": "^0.1.0",
+    "@stdlib/assert-is-string": "^0.1.1",
+    "@stdlib/string-format": "^0.1.1",
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
@@ -47,7 +47,7 @@
     "@stdlib/array-complex128": "^0.1.0",
     "@stdlib/array-complex64": "^0.1.0",
     "@stdlib/array-float64": "^0.1.0",
-    "@stdlib/assert-instance-of": "^0.1.0",
+    "@stdlib/assert-instance-of": "^0.1.1",
     "@stdlib/assert-is-complex-typed-array": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/blas-ext-base-gfill-by": "^0.1.0",
