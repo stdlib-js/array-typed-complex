@@ -45,38 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-typed-complex
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-complexarray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var complexarray = require( 'path/to/vendor/umd/array-typed-complex/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.complexarray;
-})();
-</script>
+var complexarray = require( '@stdlib/array-typed-complex' );
 ```
 
 #### complexarray( \[dtype] )
@@ -188,17 +180,12 @@ var arr6 = complexarray( buf, 24, 4, 'complex64' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-by@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
+var gfillBy = require( '@stdlib/blas-ext-base-gfill-by' );
+var Complex128 = require( '@stdlib/complex-float64' );
+var reinterpret128 = require( '@stdlib/strided-base-reinterpret-complex128' );
+var complexarray = require( '@stdlib/array-typed-complex' );
 
 function rand() {
     var re = discreteUniform( -10, 10 );
@@ -217,11 +204,6 @@ var view = reinterpret128( arr, 0 );
 
 // View the results:
 console.log( view );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -239,6 +221,13 @@ console.log( view );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-typed`][@stdlib/array/typed]</span><span class="delimiter">: </span><span class="description">create a typed array.</span>
+-   <span class="package-name">[`@stdlib/array-typed-real`][@stdlib/array/typed-real]</span><span class="delimiter">: </span><span class="description">create a typed array.</span>
 
 </section>
 
@@ -314,6 +303,14 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-typed-complex/main/LICENSE
 
 [mdn-arraybuffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
+
+<!-- <related-links> -->
+
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
+
+[@stdlib/array/typed-real]: https://github.com/stdlib-js/array-typed-real
+
+<!-- </related-links> -->
 
 </section>
 
