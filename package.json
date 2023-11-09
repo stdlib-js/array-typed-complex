@@ -40,7 +40,7 @@
     "@stdlib/array-typed-complex-ctors": "^0.1.0",
     "@stdlib/assert-is-string": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.1.0"
+    "@stdlib/types": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.1.0",
@@ -49,7 +49,7 @@
     "@stdlib/array-float64": "^0.1.1",
     "@stdlib/assert-instance-of": "^0.1.1",
     "@stdlib/assert-is-complex-typed-array": "^0.1.0",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/blas-ext-base-gfill-by": "^0.1.0",
     "@stdlib/complex-float64": "^0.1.1",
     "@stdlib/math-base-special-pow": "^0.1.0",

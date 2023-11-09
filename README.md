@@ -222,6 +222,13 @@ console.log( view );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-typed`][@stdlib/array/typed]</span><span class="delimiter">: </span><span class="description">create a typed array.</span>
+-   <span class="package-name">[`@stdlib/array-typed-real`][@stdlib/array/typed-real]</span><span class="delimiter">: </span><span class="description">create a typed array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -296,6 +303,14 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-typed-complex/main/LICENSE
 
 [mdn-arraybuffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
+
+<!-- <related-links> -->
+
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
+
+[@stdlib/array/typed-real]: https://github.com/stdlib-js/array-typed-real
+
+<!-- </related-links> -->
 
 </section>
 
