@@ -1,0 +1,4 @@
+// Copyright (c) 2023 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import{isPrimitive as e}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string@v0.1.1-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@v0.1.1-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex-ctors@v0.1.0-esm/index.mjs";function s(){var s,n,i;if(n=(s=arguments.length)&&e(arguments[s-1])?arguments[s-=1]:"complex128",null===(i=r(n)))throw new TypeError(t("invalid argument. Must provide a recognized data type. Value: `%s`.",n));return s<=0?new i(0):1===s?new i(arguments[0]):2===s?new i(arguments[0],arguments[1]):new i(arguments[0],arguments[1],arguments[2])}export{s as default};
+//# sourceMappingURL=index.mjs.map
