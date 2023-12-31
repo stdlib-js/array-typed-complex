@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isComplexTypedArray = require( '@stdlib/assert-is-complex-typed-array' );
 var pkg = require( './../package.json' ).name;
 var complexarray = require( './../lib' );
