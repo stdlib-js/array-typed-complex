@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@deno/mod.js';
+import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@v0.2.0-deno/mod.js';
 ```
 
 #### complexarray( \[dtype] )
@@ -169,7 +169,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-d
 import gfillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-by@deno/mod.js';
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@deno/mod.js';
 import reinterpret128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@deno/mod.js';
-import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@deno/mod.js';
+import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@v0.2.0-deno/mod.js';
 
 function rand() {
     var re = discreteUniform( -10, 10 );
