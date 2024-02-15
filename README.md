@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-typed-complex/tags). For example,
+
+```javascript
 import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@v0.2.0-esm/index.mjs';
 ```
 
@@ -174,7 +179,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-d
 import gfillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-by@esm/index.mjs';
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@esm/index.mjs';
 import reinterpret128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@esm/index.mjs';
-import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@v0.2.0-esm/index.mjs';
+import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@esm/index.mjs';
 
 function rand() {
     var re = discreteUniform( -10, 10 );
