@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+complexarray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-typed-complex/tags). For example,
+
+```javascript
 complexarray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@v0.2.2-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var complexarray = require( 'path/to/vendor/umd/array-typed-complex/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -196,7 +201,7 @@ var arr6 = complexarray( buf, 24, 4, 'complex64' );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-by@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
