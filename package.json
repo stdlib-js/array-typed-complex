@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-defaults": "^0.3.0",
+    "@stdlib/array-defaults": "^0.4.0",
     "@stdlib/array-typed-complex-ctors": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
@@ -49,10 +49,10 @@
     "@stdlib/array-complex128": "^0.3.0",
     "@stdlib/array-complex64": "^0.3.0",
     "@stdlib/array-float64": "^0.2.2",
-    "@stdlib/assert-instance-of": "^0.2.2",
+    "@stdlib/assert-instance-of": "^0.3.0",
     "@stdlib/assert-is-complex-typed-array": "^0.2.2",
     "@stdlib/blas-ext-base-gfill-by": "^0.2.1",
-    "@stdlib/complex-float64-ctor": "^0.0.3",
+    "@stdlib/complex-float64-ctor": "^0.1.0",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/strided-base-reinterpret-complex128": "^0.2.2",
