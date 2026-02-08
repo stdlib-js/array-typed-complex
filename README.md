@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-typed-complex/tags). For example,
+
+```javascript
 import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@v0.2.3-deno/mod.js';
 ```
 
@@ -169,7 +174,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-d
 import gfillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-by@deno/mod.js';
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
 import reinterpret128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@deno/mod.js';
-import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@v0.2.3-deno/mod.js';
+import complexarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex@deno/mod.js';
 
 function rand() {
     var re = discreteUniform( -10, 10 );
