@@ -20,7 +20,7 @@
 
 /* eslint-disable @typescript-eslint/unified-signatures */
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 import { ArrayLike, ComplexTypedArray, ComplexFloatingPointDataTypeMap as DataTypeMap } from '@stdlib/types/array';
 import ArrayBuffer = require( '@stdlib/array-buffer' );
